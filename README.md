@@ -53,7 +53,6 @@ A responsive educational platform website built independently after completing [
 ## 🙏 Acknowledgments
 Credit to [edroh](https://youtube.com/@EdRohDev) for foundational CSS concepts
 
-▶️ [Tutorial Reference](https://youtu.be/0hrJGWrCux0) |
-🚀 [Live Demo](https://css-master-app-1.netlify.app/)
+▶️ [Tutorial Reference](https://youtu.be/0hrJGWrCux0) | 🚀 [Live Demo](https://css-master-app-1.netlify.app/)
 
 <sub>Redeveloped by Krowey Richmond Borquaye</sub>
