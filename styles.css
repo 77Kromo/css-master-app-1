@@ -469,6 +469,12 @@ footer {
     font-size: 1.725rem;
     font-weight: 500;
   }
+
+  /* call to action Styles */
+
+  .cta-container {
+    padding: 50px;
+  }
 }
 @media screen and (max-width: 768px) {
   /* Universal Styles */
@@ -549,6 +555,11 @@ footer {
     padding: 0;
     margin: 0;
   }
+  /* call to action Styles */
+
+  .cta-container {
+    padding: 40px;
+  }
 }
 @media screen and (max-width: 600px) {
   body {
@@ -558,23 +569,26 @@ footer {
   }
   /* Feature Styles */
   .feature {
-    padding: 0;
+    padding: 15px 0 0 0;
     margin: 0;
     flex-direction: column;
     gap: 0;
   }
-
+  .feature-item {
+    padding: 0 15px 15px 15px;
+  }
   .feature-image {
     padding: 0;
     margin-bottom: -7px;
-  }
-  .feature-item {
-    padding: 10px 10px;
   }
 
   .feature-title {
     margin-bottom: 0;
     font-weight: 500;
+  } /* call to action Styles */
+
+  .cta-container {
+    padding: 30px;
   }
 }
 
@@ -610,8 +624,29 @@ footer {
   }
 
   /* Feature Styles */
+  .feature {
+    padding: 10px 0 0 0;
+  }
   .feature-item {
-    padding: 5px 10px;
+    padding: 0 10px 10px 10px;
+  } /* call to action Styles */
+
+  .cta-container {
+    padding: 20px;
+  }
+
+  .cta-title {
+    margin-bottom: 5px;
+
+    font-size: 1.25rem;
+  }
+
+  .cta-text {
+    margin-bottom: 15px;
+  }
+
+  .cta-btn {
+    padding: 7px 15px;
   }
 }
 
@@ -632,11 +667,6 @@ footer {
   }
 
   /* Feature Styles */
-
-  .feature-item {
-    padding: 5px 5px;
-  }
-
   .feature-title {
     font-size: 1.2rem;
     font-weight: 400;
