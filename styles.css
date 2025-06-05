@@ -475,7 +475,23 @@ footer {
   .cta-container {
     padding: 50px;
   }
+  /* Video Styles */
+
+  .video {
+    padding: 50px;
+  }
+
+  .video-desc {
+    margin-top: 15px;
+  }
+
+  .video-container {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
 }
+
 @media screen and (max-width: 768px) {
   /* Universal Styles */
   body {
@@ -560,8 +576,23 @@ footer {
   .cta-container {
     padding: 40px;
   }
+  /* Video Styles */
+
+  .video {
+    padding: 40px;
+  }
+  .video-desc {
+    margin: 12px 0;
+  }
+  .video-control {
+    margin: 0;
+  }
+
+  .video-container {
+    margin-top: 20px;
+  }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   body {
     margin: 0;
     padding: 0;
@@ -575,7 +606,7 @@ footer {
     gap: 0;
   }
   .feature-item {
-    padding: 0 15px 15px 15px;
+    padding: 0 25px 15px 25px;
   }
   .feature-image {
     padding: 0;
@@ -589,6 +620,23 @@ footer {
 
   .cta-container {
     padding: 30px;
+  } /* Video Styles */
+
+  .video {
+    padding: 30px;
+  }
+
+  .video-title {
+    font-size: 1.7rem;
+  }
+  .video-desc {
+    margin: 10px 0;
+  }
+  .video-container {
+    margin-top: 15px;
+  }
+  .video-btn {
+    padding: 8px 17px;
   }
 }
 
@@ -628,7 +676,7 @@ footer {
     padding: 10px 0 0 0;
   }
   .feature-item {
-    padding: 0 10px 10px 10px;
+    padding: 0 15px 10px 15px;
   } /* call to action Styles */
 
   .cta-container {
@@ -638,7 +686,7 @@ footer {
   .cta-title {
     margin-bottom: 5px;
 
-    font-size: 1.25rem;
+    font-size: 1.425rem;
   }
 
   .cta-text {
@@ -647,6 +695,23 @@ footer {
 
   .cta-btn {
     padding: 7px 15px;
+  }
+
+  /* Video Styles */
+
+  .video {
+    padding: 20px;
+  }
+
+  .video-title {
+    font-size: 1.5rem;
+  }
+  .video-container {
+    margin-top: 15px;
+  }
+  .video-btn {
+    padding: 8px 17px;
+    font-size: 0.7rem;
   }
 }
 
@@ -670,5 +735,16 @@ footer {
   .feature-title {
     font-size: 1.2rem;
     font-weight: 400;
+  } /* Video Styles */
+
+  .video-title {
+    font-size: 1.3rem;
+  }
+  .video-container {
+    margin-top: 15px;
+  }
+  .video-btn {
+    padding: 5px 12px;
+    font-size: 0.65rem;
   }
 }
