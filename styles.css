@@ -501,9 +501,20 @@ footer {
   header {
     padding: 20px 30px;
   }
-  .close-sidebar,
-  .open-sidebar {
+
+  .close-sidebar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 10;
+    color: #333;
     display: block;
+  }
+
+  .open-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .nav-links {
     width: 100%;
@@ -512,7 +523,6 @@ footer {
     position: fixed;
     top: 0;
     gap: 0;
-
     right: -1000px;
     background-color: #81da76;
     flex-direction: column;
@@ -532,13 +542,6 @@ footer {
     color: #fff;
   }
 
-  .close-sidebar {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    z-index: 10;
-    color: #333;
-  }
   #sidebar:checked ~ .nav-links {
     right: 0;
   }
@@ -647,10 +650,10 @@ footer {
   }
   /* Header Styles */
   header {
-    padding: 10px 20px;
+    padding: 12px 20px;
   }
   .close-sidebar {
-    top: 10px;
+    top: 15px;
     right: 20px;
   }
   .logo {
